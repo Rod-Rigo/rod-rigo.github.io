@@ -1,0 +1,11 @@
+@keyframes anime{
+    from{ color:red;}
+    to{color: blue;}
+}
+
+h1 {
+    animation-name: anime;
+    animation-duration: 1s;
+    animation-iteration-count: infinite
+        
+}
