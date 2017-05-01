@@ -1,11 +1,36 @@
 @keyframes anime{
-    from{ color:red;}
-    to{color: blue;}
+    0%{ color:red;
+        background-color: black;
+        transform: rotate(-360deg);
+        margin-top: 100px;
+        t
+
+    }
+    50%{color: yellow;}
+    100%{color: white;
+        background-color:lime;
+        margin-top: -1px;
+    }
 }
+
+@keyframes background-a {
+    0%{
+        background-color:black;
+    }
+    100%{
+        background-color: lime;
+    }
+}
+
+body {
+    animation-name: background-a;
+    animation-duration: .2s;
+    animation-iteration-count: infinite
+}
+
 
 h1 {
     animation-name: anime;
-    animation-duration: 1s;
+    animation-duration: .1s;
     animation-iteration-count: infinite
         
-}
