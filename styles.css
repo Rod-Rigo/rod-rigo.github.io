@@ -1,36 +1,42 @@
 @keyframes anime{
-    0%{ color:red;
+    0%{ color:white;
         background-color: black;
         transform: rotate(-360deg);
         margin-top: 100px;
-        t
+        color: blue;
 
     }
-    50%{color: yellow;}
-    100%{color: white;
-        background-color:lime;
+    10%{color: black;}
+    1%{color: white;
+        background-color: white;
         margin-top: -1px;
     }
 }
 
 @keyframes background-a {
-    0%{
+    10%{
         background-color:black;
     }
     100%{
-        background-color: lime;
+        background-color: white;
     }
 }
 
 body {
     animation-name: background-a;
-    animation-duration: .2s;
+    animation-duration: .00001s;
     animation-iteration-count: infinite
 }
 
 
 h1 {
     animation-name: anime;
-    animation-duration: .1s;
+    animation-duration: .00000001s;
     animation-iteration-count: infinite
-        
+}
+
+#suc {
+    font-size: 100px;
+    font-style: oblique;
+    color: lime;
+}
